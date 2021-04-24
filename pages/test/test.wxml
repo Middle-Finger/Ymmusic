@@ -1,0 +1,34 @@
+<!--pages/test/test.wxml-->
+
+<swiper id="banner" indicator-dots="true" autoplay="true" interval="2000" circular="true" indicator-color="#fff" indicator-active-color='#c20c0c'>
+  <!-- wx:for="{{background}}"前端页面通过循环便利渲染后台data数据 -->
+   <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+         <!-- <view class="swiper-item {{item}}">{{item}}</view> -->
+        <image src="{{item}}">
+
+        </image>
+      </swiper-item>
+   </block>
+
+  </swiper>
+  <block wx:for="{{musiclist}}">
+
+  <view class="list_wrap">
+  <view class="list_l">
+    <image src="{{item.src}}" ></image>
+  </view>
+  <view class="list_c">
+    <!-- {{item.musicName}}json数据引用 -->
+    <view class="musicName">{{item.musicName}}</view>
+    <view class="name">{{item.name}}</view>
+
+
+  </view>
+  <!-- bintap="" 单击事件 -->
+  <view bindtap="play" class="list_r">
+    <image src="/pages/img/bofan.png"></image>
+  </view>
+</view>
+</block>
+

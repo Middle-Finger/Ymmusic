@@ -1,0 +1,7 @@
+<!--播放页面-->
+<view id="bg">
+<image src=""></image>
+</view>
+<view class="name"></view>
+
+<audio src=""></audio>

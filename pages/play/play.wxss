@@ -1,0 +1,11 @@
+/* pages/play/play.wxss */
+.bg{
+  position: fixed;
+  width: 170%;
+  height: 100%;
+  opacity: 0.5;
+  background:black;
+}
+.naem{
+  text-align: center;
+}

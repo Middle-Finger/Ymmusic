@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/play/play"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4bcffa",
+    "navigationBarTitleText": "云谋音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#c20c0c",
+    "list": [
+   
+        {
+        "pagePath": "pages/test/test",
+        "text": "首页",
+        "iconPath":"/pages/img/c1.png"
+      },
+       {
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+  
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
